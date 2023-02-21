@@ -1,14 +1,18 @@
 title: SEHYEON PARK
 logo: /assets/img/logo.jpg
-email: noeyhesx@naver.com
+email: bboxeeee@koreatech.ac.kr
 description: 한국기술교육대학교 컴퓨터공학부 3학년
 favicon: true
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 color-scheme: auto
+
+google_analytics: G-DCR3RLSF9X
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jemoji
+  - jekyll-remote-theme
 
 platforms:
   - name: GitHub
@@ -25,10 +29,9 @@ platforms:
     link: https://www.instagram.com/_sxhxun
 
 navigation:
-  - name: Blog
-    link: ./index.html
-    sublist:
-      - name: Image
-        link: ./index.html#small-image
+  - name: Baekjoon
+    link: ./baekjoon
+  - name: Projects
+    link: ./projects
   - name: About
-    link: ./another-page.html
+    link: ./about-page.html

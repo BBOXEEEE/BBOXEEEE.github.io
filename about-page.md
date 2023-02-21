@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: default
 ---
 
-## Welcome to another page
+## ABOUT
 
 _yay_
 Text can be **bold**, _italic_, or ~~strikethrough~~.
